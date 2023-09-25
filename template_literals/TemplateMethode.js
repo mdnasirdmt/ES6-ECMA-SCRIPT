@@ -1,10 +1,10 @@
-const  methode= () => {
-    let fname= "Md Nasir";
-    let lname= "Uddin";
+const methode = () => {
+    let fname = "Md Nasir";
+    let lname = "Uddin";
 
-    const name1= `${fname}`;
-    const name2= `${lname}`;
-    
+    const name1 = `${fname}`;
+    const name2 = `${lname}`;
+
 
     console.log(name1.startsWith('M'));
     console.log(name2.endsWith('M'));
