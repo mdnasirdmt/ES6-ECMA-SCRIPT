@@ -1,0 +1,24 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  text-align: center;
+  width: 100;
+  line-height: 15vh;
+  background-color: cadetblue;
+}
+h1 {
+  text-align: center;
+  line-height: 15vh;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  font-size: 1.8rem;
+  letter-spacing: 15px;
+}
+btn {
+  align-items: auto;
+} */
