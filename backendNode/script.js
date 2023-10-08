@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 app.set('view engine', 'ejs');
 
+
 app.use(function middleware(req, res, next) {
     console.log('middleware function , this function run at first than routes ');
     next();

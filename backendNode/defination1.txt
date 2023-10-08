@@ -1,0 +1,12 @@
+static files ko setup krne k liye 
+
+-----------------------
+
+1. create a folder called public 
+
+2. create three folder inside it , images, stylsheet, javaScript, 
+
+3. cofigure the express static 
+ 4. understand the path 
+
+ app.use(express.static('./public'));
