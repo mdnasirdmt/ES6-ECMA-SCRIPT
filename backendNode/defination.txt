@@ -1,0 +1,23 @@
+html ke pass superpower nahi hai but ejs ke pass hai
+ejs is html with superpower
+
+
+ejs hume deta hai dyanamic features 
+
+to setup ejs
+-----------
+1. ejs install
+npm i ejs
+
+2. cofigure ejs
+app.set("view engine", "ejs");
+
+3. make a views folder
+
+4. make ejs files in that folder (views)
+
+5. replace send keyword with render 
+
+6. send ki jagah render kro = > render krte waqt 
+make sure aap views folder ke under waali hi koi file kaa naame likhen , 
+aur render function me  ejs mention na kren 
