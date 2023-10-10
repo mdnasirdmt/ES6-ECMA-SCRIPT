@@ -12,3 +12,6 @@
 // No, there are trust issues with setTimeout() 😅. The callback function needs to wait until the Call Stack is empty. 
 // So the 0 ms callback might have to wait for 100ms also if the stack is busy.  
 // It's a very beautiful concept, and I've covered this in detail in the next episode of Namaste JavaScript. 
+
+
+
