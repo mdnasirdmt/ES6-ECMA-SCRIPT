@@ -28,9 +28,26 @@ const calculate = (radius, logic) => {
   return output;
 };
 
-console.log(calculate(radius, area));
-console.log(calculate(radius, circumference));
-console.log(calculate(radius, diameter));
+
+Array.prototype.calculate1=(logic) => {
+    output = [];
+  
+    for (let index = 0; index < radius.length; index++) {
+      const element = radius[index];
+  
+      output.push(logic(element));
+    }
+  
+    return output;
+  };
+
+console.log('Area of circle  '+calculate(radius, area));
+console.log('Circumference  '+calculate(radius, circumference));
+console.log('Diameter  '+calculate(radius, diameter));
+
+// both are same line 49 and 50
+console.log(radius.map(diameter));
+console.log(radius.calculate1(diameter));
 
 
 // the function takes argument as function and return some value is called Higher Order Function
